@@ -1,6 +1,5 @@
 # high_shchool_management_system
-This is a professional, fully responsive website and school management system for Solid State High School, a fictional educational institution located. The website is built for educational and demonstration purposes only.
-
+This is a professional, fully responsive **Student Results Management System** featuring a responsive school website and integrated student portal with role-based access control, a fictional educational institution. The website is built for educational and demonstration purposes only.
 
 # Solid State High School Portal
 
@@ -9,18 +8,67 @@ This is a professional, fully responsive website and school management system fo
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-purple.svg)](https://getbootstrap.com/)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](#)
 
-A comprehensive **Student Results Management System** featuring a responsive school website and integrated student portal with role-based access control.
-
 ## 🎓 Features
 
-- **Public Website** - Professional school information portal
-- **Student Portal** - View grades, results, and academic information
+- **Public Website** - Professional school website with admission application and student, Teacher, Accademic staff, admin logins portal
+- **Student Portal** - View grades, results, and other academic information
 - **Teacher Dashboard** - Manage classes and input grades
 - **Academic Staff Panel** - Manage academic operations and results
 - **Admin Dashboard** - Full system administration
 - **Responsive Design** - Mobile-first approach
 - **PDF & Excel Export** - Generate reports and documents
 - **Email Integration** - Automated notifications
+
+## 📝 Public Pages
+
+- **Home** - Hero section, statistics, programs, news
+- **About** - School information and history
+- **Academics** - Program details and curriculum
+- **Admissions** - Application requirements
+- **Facilities** - Campus infrastructure
+- **News & Events** - Latest updates
+- **Contact** - Support and inquiry form
+- **Staff Login** - For admin, academic staff and teacher login
+
+## Role-specific Features
+
+### Admin (Administrator)
+- Full system administration dashboard and user management
+- Create, update, delete classes and class groups
+- Add / edit / remove subjects and subject combinations
+- Register, import (bulk) and manage student records
+- Manage staff/teacher accounts and permissions
+- Configure school settings, terms, sessions, and grading schemes
+- Declare, edit, and publish student results for any term
+- Generate, export and print reports (PDF/Excel) for students, classes and terms
+- Manage notices, announcements and homepage content
+- Configure email/SMTP, system preferences and backups
+- View audit logs, session activity and system alerts
+
+### Academic Staff
+- Manage academic operations and results approval workflow
+- Create and maintain class assignments, subject allocations and combinations
+- Upload, edit and verify student results; approve results for publication
+- Manage terms, divisions and grading scales
+- Produce class-level reports and statistics; download PDFs
+- Promote students between classes/terms based on configured promotion rules
+- View and respond to academic inquiries and notices
+
+### Teacher
+- Access assigned classes and student rosters
+- Enter and update continuous assessment and exam scores
+- Generate individual and class reports; print or export results
+- View assigned subject combinations and timetables
+- Communicate with students via notices or messages
+- View profile, change password and manage personal settings
+
+### Student
+- Search and view results using roll number or student ID
+- View current subjects, grades, and term/annual results
+- Download or print result PDFs and reports
+- View notices, announcements and academic calendars
+- Change password and update basic profile settings
+- Access academic history and transcript downloads (if enabled)
 
 ## 🚀 Quick Start
 
@@ -30,40 +78,13 @@ A comprehensive **Student Results Management System** featuring a responsive sch
 - Apache/Nginx
 - Git
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/solid-state-high-school.git
-cd Solid-State-High-School
-```
-
-2. **Configure database**
-Edit `script/db/config.php`:
-```php
-DEFINE('DBHost','localhost');
-DEFINE('DBUser', 'root');
-DEFINE('DBPass','your_password');
-DEFINE('DBName','sshs_db');
-```
-
-3. **Import database schema**
-```bash
-mysql -u root -p sshs_db < database/srms_expert.sql
-```
-
-4. **Access the application**
-- Website: `http://localhost/Solid-State-High-School/`
-- Student Login: `http://localhost/Solid-State-High-School/script/index-stud.php`
-- Admin Login: `http://localhost/Solid-State-High-School/script/index-admini.php`
-
 ## 📁 Project Structure
 
 ```
 ├── index.html                    # Home page
 ├── about.html                    # About school
 ├── academics.html                # Academic programs
-├── admissions.html               # Admission info
+├── admissions.html               # Admission info and application
 ├── facilities.html               # Campus facilities
 ├── news.html                     # News & events
 ├── contact.html                  # Contact form
@@ -80,11 +101,11 @@ mysql -u root -p sshs_db < database/srms_expert.sql
 ├── css/                          # Public site styles
 ├── js/                           # Public site scripts
 ├── images/                       # Images and media
-├── database/                     # SQL schemas
+├── db/                           # SQL schemas
 └── README.md
 ```
 
-## 👥 User Roles
+## 👥 User Acccess Roles
 
 | Role | Access | Functions |
 |------|--------|-----------|
@@ -121,15 +142,32 @@ mysql -u root -p sshs_db < database/srms_expert.sql
 | Text | Dark | `#2c3e50` |
 | Background | White | `#ffffff` |
 
-## 📝 Public Pages
+### Installation
 
-- **Home** - Hero section, statistics, programs, news
-- **About** - School information and history
-- **Academics** - Program details and curriculum
-- **Admissions** - Application requirements
-- **Facilities** - Campus infrastructure
-- **News & Events** - Latest updates
-- **Contact** - Support and inquiry form
+1. **Clone the repository**
+```bash
+git clone https://github.com/ngonye72/high_school_management_system.git
+cd Solid-State-High-School
+```
+
+2. **Configure database**
+Edit `script/db/config.php`:
+```php
+DEFINE('DBHost','localhost');
+DEFINE('DBUser', 'root');
+DEFINE('DBPass','your_password');
+DEFINE('DBName','sshs_db');
+```
+
+3. **Import database schema**
+```bash
+mysql -u root -p sshs_db < db/sshs_db
+```
+
+4. **Access the management system**
+- Website: `http://localhost/Solid-State-High-School/`
+- Logins : `http://localhost/Solid-State-High-School/(select admin, academic staff, teacher or student login)`
+
 
 ## 📚 Database
 
@@ -141,7 +179,7 @@ The system uses a normalized MySQL schema with the following key tables:
 - `tbl_results` - Grade records
 - `tbl_terms` - Academic periods
 
-See `database/srms_expert.sql` for complete schema.
+See `db/sshs_db` for complete schema.
 
 ## 🔐 Security
 
@@ -167,10 +205,10 @@ Demo credentials are available in `login_credentials.txt` (for testing purposes)
 ## 📖 Documentation
 
 - See `README.md` for detailed technical documentation
-- Database schema in `database/srms_expert.sql`
+- Database schema in `db/sshs_db`
 - Sample data included in database dump
 
-## 🚀 Features Roadmap
+## 🚀 Futures Roadmap
 
 - [ ] REST API
 - [ ] Mobile app
@@ -199,5 +237,3 @@ Contributions are welcome! Please:
 ## 📞 Support
 
 For issues, questions, or suggestions, please open an issue on GitHub.
-
----
