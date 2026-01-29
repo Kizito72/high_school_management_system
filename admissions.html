@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Solid State High School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+    </head>
+<body>
+    <style>
+    /* Back to Top button */
+    #backToTop{
+        position: fixed;
+        right: 24px;
+        bottom: 30px;
+        width:48px;
+        height:48px;
+        border-radius:50%;
+        background:#722992;
+        color:#fff;
+        display:none;
+        align-items:center;
+        justify-content:center;
+        box-shadow:0 6px 18px rgba(0,0,0,0.18);
+        z-index:1200;
+        cursor:pointer;
+        border:0;
+    }
+    #backToTop:hover{background:#1e2180}
+    #backToTop i{font-size:18px}
+    </style>
+    <!-- Top Info Bar -->
+    <div class="top-info-bar">
+        <div class="container">
+            <div class="row align-items-center">
+            <marquee behavior="" direction="left" class="col-12 text-center" scrollamount="6" style="font-size: 12px; width: 80%; color: rgb(255, 145, 145); padding-left: 10px; padding-right: 25px;">
+            <span>Disclaimer: This website is for educational, Simulation and demonstration purposes only, and Does not represent the views of any real institution.</span>
+        </marquee>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> +356 1234 5678 
+                        <span class="ms-3"><i class="fas fa-envelope"></i> info@solidstatehighschool.test</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="login-links">
+                        <div class="dropdown d-inline-block">
+                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-user"></i> Staff Login</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="admin-login.html"><i class="fas fa-user-shield"></i> Admin Login</a></li>
+                                <li><a class="dropdown-item" href="academic-staff-login.html"><i class="fas fa-chalkboard-teacher"></i> Academic Staff Login</a></li>
+                                <li><a class="dropdown-item" href="teacher-login.html"><i class="fas fa-user-tie"></i> Teacher Login</a></li>
+                            </ul>
+                        </div>
+                        <a href="student-login.html" class="ms-3"><i class="fas fa-graduation-cap"></i> Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Solid State High School" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News & Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Admissions</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Admissions Content -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">Join Our School Community</h2>
+                    <p class="lead">We welcome applications from motivated students who are eager to learn and grow. Our admissions process is designed to identify students who will thrive in our challenging and supportive environment.</p>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <h4>Application Period</h4>
+                        <p><strong>October 1 - January 31</strong></p>
+                        <p>Applications open in October for the following academic year starting in September.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-user-graduate"></i></div>
+                        <h4>Grade Levels</h4>
+                        <p><strong>Forms 1-5 (Ages 11-16)</strong></p>
+                        <p>We accept students for all secondary school levels based on availability.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-file-alt"></i></div>
+                        <h4>Entrance Exam</h4>
+                        <p><strong>March</strong></p>
+                        <p>Assessment in Mathematics, English, and Reasoning Skills.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h3 class="text-primary-custom mb-4 text-center">Admission Requirements</h3>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="news-card mb-3">
+                                <div class="news-content">
+                                    <h5><i class="fas fa-check-circle text-primary-custom me-2"></i>Completed Application Form</h5>
+                                    <p>Submit the online application form with all required information.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-card mb-3">
+                                <div class="news-content">
+                                    <h5><i class="fas fa-check-circle text-primary-custom me-2"></i>Academic Records</h5>
+                                    <p>Previous two years' report cards and transcripts from current school.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-card mb-3">
+                                <div class="news-content">
+                                    <h5><i class="fas fa-check-circle text-primary-custom me-2"></i>Birth Certificate</h5>
+                                    <p>Certified copy of student's birth certificate.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-card mb-3">
+                                <div class="news-content">
+                                    <h5><i class="fas fa-check-circle text-primary-custom me-2"></i>Recommendation Letters</h5>
+                                    <p>Two recommendation letters from current teachers or school administrators.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-card mb-3">
+                                <div class="news-content">
+                                    <h5><i class="fas fa-check-circle text-primary-custom me-2"></i>Entrance Assessment</h5>
+                                    <p>Successful completion of our entrance examination and interview.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-10 mx-auto">
+                    <h3 class="text-primary-custom mb-4">Application Process</h3>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-1"></i> Submit Application</h5>
+                                <p>Complete and submit the online application form along with required documents.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-2"></i> Document Review</h5>
+                                <p>Our admissions team reviews all submitted materials.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-3"></i> Entrance Exam</h5>
+                                <p>Eligible students are invited to take our entrance assessment.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-4"></i> Interview</h5>
+                                <p>Qualified candidates attend an interview with staff members.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-5"></i> Decision</h5>
+                                <p>Admission decisions are communicated by April 15th.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="program-card">
+                                <h5 class="text-primary-custom"><i class="fas fa-6"></i> Enrollment</h5>
+                                <p>Accepted students complete enrollment and attend orientation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Application Form -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="program-card">
+                        <h3 class="text-center mb-4">Online Application Form</h3>
+                        <form id="admissionForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Student's First Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Student's Last Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Date of Birth <span class="required">*</span></label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Gender <span class="required">*</span></label>
+                                    <select class="form-control" required>
+                                        <option value="">Select...</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Current Grade/Form <span class="required">*</span></label>
+                                    <select class="form-control" required>
+                                        <option value="">Select...</option>
+                                        <option>Form 1</option>
+                                        <option>Form 2</option>
+                                        <option>Form 3</option>
+                                        <option>Form 4</option>
+                                        <option>Form 5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Applying for Grade/Form <span class="required">*</span></label>
+                                    <select class="form-control" required>
+                                        <option value="">Select...</option>
+                                        <option>Form 1</option>
+                                        <option>Form 2</option>
+                                        <option>Form 3</option>
+                                        <option>Form 4</option>
+                                        <option>Form 5</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Current School <span class="required">*</span></label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-12"><hr></div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Parent/Guardian Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Relationship <span class="required">*</span></label>
+                                    <select class="form-control" required>
+                                        <option value="">Select...</option>
+                                        <option>Mother</option>
+                                        <option>Father</option>
+                                        <option>Guardian</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address <span class="required">*</span></label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number <span class="required">*</span></label>
+                                    <input type="tel" class="form-control" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Home Address <span class="required">*</span></label>
+                                    <textarea class="form-control" rows="2" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Why do you want to attend Solid State High School?</label>
+                                    <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                                        <label class="form-check-label" for="agreeTerms">
+                                            I agree to the terms and conditions and confirm that all information provided is accurate. <span class="required">*</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p class="text-muted small mt-3 mb-3">
+                                        <span style="color:#f00" class="required">*</span> All fields marked with asterisks are mandatory.
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="fas fa-paper-plane me-2"></i>Submit Application
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="images/logo-inverse.png" alt="Solid State High School" class="footer-logo mb-3" height="40">
+                    <h5>About Solid State High School</h5>
+                    <p>Excellence in education since 1985.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Information</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 0124567 Triq Santa Venera, Birkirkara BKR 2074, Malta</li>
+                        <li><i class="fas fa-phone"></i> +356 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@solidstatehighschool.test</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 7:30 AM - 3:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2026 Solid State High School. All rights reserved.</p>
+                
+                <p style="color:rgb(129, 70, 109)" class="">This Sample Project was Developed by <a href="https://kiziton.com"><span style="color:rgb(92, 89, 255) ;">Kizito Ngonye</span></a></p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+        <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+        <script>
+        (function(){
+            var btn = document.getElementById('backToTop');
+            if(!btn) return;
+            window.addEventListener('scroll', function(){
+                if(window.scrollY > 300) btn.style.display = 'flex'; else btn.style.display = 'none';
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({top:0, behavior:'smooth'});
+            });
+        })();
+        </script>
+</body>
+</html>

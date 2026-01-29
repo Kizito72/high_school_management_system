@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics - Solid State High School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+    </head>
+<body>
+    <style>
+    /* Back to Top button */
+    #backToTop{
+        position: fixed;
+        right: 24px;
+        bottom: 30px;
+        width:48px;
+        height:48px;
+        border-radius:50%;
+        background:#722992;
+        color:#fff;
+        display:none;
+        align-items:center;
+        justify-content:center;
+        box-shadow:0 6px 18px rgba(0,0,0,0.18);
+        z-index:1200;
+        cursor:pointer;
+        border:0;
+    }
+    #backToTop:hover{background:#1e2180}
+    #backToTop i{font-size:18px}
+    </style>
+    <!-- Top Info Bar -->
+    <div class="top-info-bar">
+        <div class="container">
+            <div class="row align-items-center">
+            <marquee behavior="" direction="left" class="col-12 text-center" scrollamount="6" style="font-size: 12px; width: 80%; color: rgb(255, 145, 145); padding-left: 10px; padding-right: 25px;">
+            <span>Disclaimer: This website is for educational, Simulation and demonstration purposes only, and Does not represent the views of any real institution.</span>
+        </marquee>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> +356 1234 5678 
+                        <span class="ms-3"><i class="fas fa-envelope"></i> info@solidstatehighschool.test</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="login-links">
+                        <div class="dropdown d-inline-block">
+                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                                <i class="fas fa-user"></i> Staff Login
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="admin-login.html"><i class="fas fa-user-shield"></i> Admin Login</a></li>
+                                <li><a class="dropdown-item" href="academic-staff-login.html"><i class="fas fa-chalkboard-teacher"></i> Academic Staff Login</a></li>
+                                <li><a class="dropdown-item" href="teacher-login.html"><i class="fas fa-user-tie"></i> Teacher Login</a></li>
+                            </ul>
+                        </div>
+                        <a href="student-login.html" class="ms-3"><i class="fas fa-graduation-cap"></i> Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Solid State High School" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="academics.html">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News & Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Academic Programs</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Academics</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Academic Programs -->
+    <section class="content-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Curriculum</h2>
+                <p class="lead">Comprehensive Education for Grades 7-12</p>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-microscope"></i></div>
+                        <h3>Sciences</h3>
+                        <h6 class="text-primary-custom mb-3">Biology, Chemistry, Physics</h6>
+                        <p>Our science programs emphasize hands-on learning with modern laboratories. Students engage in experiments, research projects, and scientific inquiry from foundational concepts to advanced topics.</p>
+                        <ul class="text-start">
+                            <li>State-of-the-art laboratory equipment</li>
+                            <li>Annual science fair participation</li>
+                            <li>Environmental studies program</li>
+                            <li>Partnership with University of Malta</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-calculator"></i></div>
+                        <h3>Mathematics</h3>
+                        <h6 class="text-primary-custom mb-3">Pure Math, Applied Math, Statistics</h6>
+                        <p>Progressive mathematics education from algebra and geometry through calculus and statistics. We develop problem-solving skills and logical thinking essential for all fields.</p>
+                        <ul class="text-start">
+                            <li>Differentiated instruction levels</li>
+                            <li>Mathematics competition preparation</li>
+                            <li>Computer-aided learning tools</li>
+                            <li>Advanced placement options</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-globe-europe"></i></div>
+                        <h3>Languages & Literature</h3>
+                        <h6 class="text-primary-custom mb-3">Maltese, English, Italian, French</h6>
+                        <p>Multilingual education preparing students for global citizenship. Strong emphasis on literature, communication skills, and cultural understanding.</p>
+                        <ul class="text-start">
+                            <li>Native and foreign language programs</li>
+                            <li>Literature and creative writing</li>
+                            <li>International exchange programs</li>
+                            <li>Language certification preparation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-landmark"></i></div>
+                        <h3>Humanities & Social Sciences</h3>
+                        <h6 class="text-primary-custom mb-3">History, Geography, Social Studies</h6>
+                        <p>Critical examination of human societies, cultures, and historical events. Students develop analytical skills and global perspective.</p>
+                        <ul class="text-start">
+                            <li>Maltese and European history</li>
+                            <li>Current affairs discussions</li>
+                            <li>Field trips and cultural visits</li>
+                            <li>Model UN participation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Technology & Computer Science</h3>
+                        <h6 class="text-primary-custom mb-3">Programming, Web Design, Robotics</h6>
+                        <p>Comprehensive technology education preparing students for the digital age. From basic computer literacy to advanced programming.</p>
+                        <ul class="text-start">
+                            <li>Python, Java, and web development</li>
+                            <li>Robotics and AI fundamentals</li>
+                            <li>3D printing and CAD design</li>
+                            <li>Cybersecurity awareness</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Arts & Creative Studies</h3>
+                        <h6 class="text-primary-custom mb-3">Visual Arts, Music, Drama</h6>
+                        <p>Fostering creativity and artistic expression through various mediums. Students explore and develop their artistic talents.</p>
+                        <ul class="text-start">
+                            <li>Art studio and digital design</li>
+                            <li>Music theory and performance</li>
+                            <li>Drama and theater productions</li>
+                            <li>Annual art exhibitions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Programs -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Enrichment & Support</h2>
+                <p class="lead">Beyond the Classroom</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-book-reader text-primary-custom me-2"></i>Learning Support</h5>
+                            <p>Individualized support for students with diverse learning needs, including tutoring and special education services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-star text-primary-custom me-2"></i>Gifted Program</h5>
+                            <p>Advanced enrichment opportunities for high-achieving students including accelerated courses and research projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-users text-primary-custom me-2"></i>Clubs & Activities</h5>
+                            <p>Over 30 student clubs including debate, chess, coding, environmental, and cultural clubs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="images/logo-inverse.png" alt="Solid State High School" class="footer-logo mb-3" height="40">
+                    <h5>About Solid State High School</h5>
+                    <p>Excellence in education since 1985. We are committed to nurturing young minds and preparing them for a successful future.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Information</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 0124567 Triq Santa Venera, Birkirkara BKR 2074, Malta</li>
+                        <li><i class="fas fa-phone"></i> +356 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@solidstatehighschool.test</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 7:30 AM - 3:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2026 Solid State High School. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+                
+                <p style="color:rgb(129, 70, 109)" class="">This Sample Project was Developed by <a href="https://kiziton.com"><span style="color:rgb(92, 89, 255) ;">Kizito Ngonye</span></a></p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+        <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+        <script>
+        (function(){
+            var btn = document.getElementById('backToTop');
+            if(!btn) return;
+            window.addEventListener('scroll', function(){
+                if(window.scrollY > 300) btn.style.display = 'flex'; else btn.style.display = 'none';
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({top:0, behavior:'smooth'});
+            });
+        })();
+        </script>
+</body>
+</html>

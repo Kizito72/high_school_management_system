@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities - Solid State High School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+    </head>
+<body>
+    <style>
+    /* Back to Top button */
+    #backToTop{
+        position: fixed;
+        right: 24px;
+        bottom: 30px;
+        width:48px;
+        height:48px;
+        border-radius:50%;
+        background:#722992;
+        color:#fff;
+        display:none;
+        align-items:center;
+        justify-content:center;
+        box-shadow:0 6px 18px rgba(0,0,0,0.18);
+        z-index:1200;
+        cursor:pointer;
+        border:0;
+    }
+    #backToTop:hover{background:#1e2180}
+    #backToTop i{font-size:18px}
+    </style>
+    <div class="top-info-bar">
+        <div class="container">
+            <div class="row align-items-center">
+            <marquee behavior="" direction="left" class="col-12 text-center" scrollamount="6" style="font-size: 12px; width: 80%; color: rgb(255, 145, 145); padding-left: 10px; padding-right: 25px;">
+            <span>Disclaimer: This website is for educational, Simulation and demonstration purposes only, and Does not represent the views of any real institution.</span>
+        </marquee>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> +356 1234 5678 
+                        <span class="ms-3"><i class="fas fa-envelope"></i> info@solidstatehighschool.test</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="login-links">
+                        <div class="dropdown d-inline-block">
+                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-user"></i> Staff Login</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="admin-login.html"><i class="fas fa-user-shield"></i> Admin Login</a></li>
+                                <li><a class="dropdown-item" href="academic-staff-login.html"><i class="fas fa-chalkboard-teacher"></i> Academic Staff Login</a></li>
+                                <li><a class="dropdown-item" href="teacher-login.html"><i class="fas fa-user-tie"></i> Teacher Login</a></li>
+                            </ul>
+                        </div>
+                        <a href="student-login.html" class="ms-3"><i class="fas fa-graduation-cap"></i> Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Solid State High School" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News & Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Facilities</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Facilities</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">State-of-the-Art Campus</h2>
+                <p class="lead">Modern Facilities Supporting Excellence in Education</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility1.jpg" alt="Science Laboratories">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-flask me-2"></i>Science Laboratories</h4>
+                            <p>Three fully-equipped laboratories for Biology, Chemistry, and Physics with modern equipment and safety features. Each lab accommodates 30 students and includes digital microscopes, fume hoods, and interactive displays.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility2.jpg" alt="Computer Labs">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-laptop me-2"></i>Computer Laboratories</h4>
+                            <p>Two state-of-the-art computer labs with 40 workstations each, equipped with latest software for programming, design, and digital learning. High-speed internet connectivity throughout campus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility3.jpg" alt="Library">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-book me-2"></i>Learning Resource Centre</h4>
+                            <p>Extensive library with over 15,000 books, digital resources, and quiet study areas. Includes a research section, multimedia room, and comfortable reading spaces for independent learning.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility4.jpg" alt="Sports Complex">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-running me-2"></i>Sports Complex</h4>
+                            <p>Indoor gymnasium, outdoor football pitch, basketball courts, and fitness centre. Facilities support our comprehensive physical education program and after-school sports activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility5.jpg" alt="Auditorium">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-theater-masks me-2"></i>Auditorium & Performance Hall</h4>
+                            <p>450-seat auditorium with professional lighting and sound systems for assemblies, performances, and presentations. Adjacent drama studio for rehearsals and classes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="facility-card">
+                        <img src="images/facility6.jpg" alt="Cafeteria">
+                        <div class="facility-content">
+                            <h4><i class="fas fa-utensils me-2"></i>Cafeteria & Dining Hall</h4>
+                            <p>Modern cafeteria serving nutritious meals and snacks. Seating for 200 students with indoor and outdoor dining areas. Menu designed by nutritionists to support student health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Additional Amenities</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-wifi"></i></div>
+                        <h5>Wi-Fi Campus</h5>
+                        <p>High-speed wireless internet throughout the school</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-music"></i></div>
+                        <h5>Music Rooms</h5>
+                        <p>Practice rooms and ensemble space with instruments</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-palette"></i></div>
+                        <h5>Art Studios</h5>
+                        <p>Dedicated spaces for visual arts and design</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card text-center">
+                        <div class="program-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h5>Medical Centre</h5>
+                        <p>On-campus nurse and first aid facilities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="images/logo-inverse.png" alt="Solid State High School" class="footer-logo mb-3" height="40">
+                    <h5>About Solid State High School</h5>
+                    <p>Excellence in education since 1985.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Information</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 0124567 Triq Santa Venera, Birkirkara BKR 2074, Malta</li>
+                        <li><i class="fas fa-phone"></i> +356 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@solidstatehighschool.test</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 7:30 AM - 3:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2026 Solid State High School. All rights reserved.</p>
+                
+                <p style="color:rgb(129, 70, 109)" class="">This Sample Project was Developed by <a href="https://kiziton.com"><span style="color:rgb(92, 89, 255) ;">Kizito Ngonye</span></a></p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+        <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+        <script>
+        (function(){
+            var btn = document.getElementById('backToTop');
+            if(!btn) return;
+            window.addEventListener('scroll', function(){
+                if(window.scrollY > 300) btn.style.display = 'flex'; else btn.style.display = 'none';
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({top:0, behavior:'smooth'});
+            });
+        })();
+        </script>
+</body>
+</html>

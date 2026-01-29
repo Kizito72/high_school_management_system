@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Solid State High School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+    </head>
+<body>
+    <style>
+    /* Back to Top button */
+    #backToTop{
+        position: fixed;
+        right: 24px;
+        bottom: 30px;
+        width:48px;
+        height:48px;
+        border-radius:50%;
+        background:#722992;
+        color:#fff;
+        display:none;
+        align-items:center;
+        justify-content:center;
+        box-shadow:0 6px 18px rgba(0,0,0,0.18);
+        z-index:1200;
+        cursor:pointer;
+        border:0;
+    }
+    #backToTop:hover{background:#1e2180}
+    #backToTop i{font-size:18px}
+    </style>
+    <!-- Top Info Bar -->
+    <div class="top-info-bar">
+        <div class="container">
+            <div class="row align-items-center">
+            <marquee behavior="" direction="left" class="col-12 text-center" scrollamount="6" style="font-size: 12px; width: 80%; color: rgb(255, 145, 145); padding-left: 10px; padding-right: 25px;">
+            <span>Disclaimer: This website is for educational, Simulation and demonstration purposes only, and Does not represent the views of any real institution.</span>
+        </marquee>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> +356 1234 5678 
+                        <span class="ms-3"><i class="fas fa-envelope"></i> info@solidstatehighschool.test</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="login-links">
+                        <div class="dropdown d-inline-block">
+                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                                <i class="fas fa-user"></i> Staff Login
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="admin-login.html"><i class="fas fa-user-shield"></i> Admin Login</a></li>
+                                <li><a class="dropdown-item" href="academic-staff-login.html"><i class="fas fa-chalkboard-teacher"></i> Academic Staff Login</a></li>
+                                <li><a class="dropdown-item" href="teacher-login.html"><i class="fas fa-user-tie"></i> Teacher Login</a></li>
+                            </ul>
+                        </div>
+                        <a href="student-login.html" class="ms-3"><i class="fas fa-graduation-cap"></i> Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Solid State High School" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academics.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News & Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About Solid State High School</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/about.jpg" alt="About Us" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="lead">A Legacy of Excellence Since 1985</p>
+                    <p>Solid State High School was founded in 1985 with a vision to provide world-class education to the youth of Malta. Located in the vibrant town of Birkirkara, our institution has grown from a modest beginning with just 120 students to become one of Malta's most prestigious secondary schools, serving over 850 students today.</p>
+                    <p>Our founders, Dr. Anthony Farrugia and Mrs. Elena Vella, believed that education should prepare students not just for examinations, but for life itself. This philosophy continues to guide us today, as we combine rigorous academic standards with character development, critical thinking, and real-world skills.</p>
+                    <p>Over the past four decades, we have produced thousands of successful graduates who have gone on to excel in universities and careers around the world, bringing honor to Malta and making meaningful contributions to society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To provide a comprehensive, student-centered education that develops intellectual curiosity, critical thinking, and strong moral character. We strive to create an inclusive learning environment where every student can discover their potential and achieve excellence.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To be recognized as Malta's leading educational institution, known for academic excellence, innovative teaching, and producing well-rounded graduates who are prepared to lead and serve in an increasingly complex and interconnected world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="content-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Core Values</h2>
+                <p class="lead">The Principles That Guide Us</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>We pursue the highest standards in everything we do, encouraging students to reach their full potential academically, socially, and personally.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h4>Integrity</h4>
+                        <p>We foster honesty, responsibility, and ethical behavior in all aspects of school life, preparing students to be principled citizens.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Respect</h4>
+                        <p>We celebrate diversity and promote mutual respect, creating an inclusive community where everyone feels valued and supported.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>We embrace new ideas and technologies, continuously improving our teaching methods to provide cutting-edge education.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Community</h4>
+                        <p>We build strong partnerships with families and the wider community, recognizing that education is a shared responsibility.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="program-card text-center">
+                        <div class="program-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Global Citizenship</h4>
+                        <p>We prepare students to thrive in a globalized world, fostering cultural awareness and environmental responsibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Leadership Team</h2>
+                <p class="lead">Dedicated Professionals Leading Our School</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <div class="mb-3">
+                            <div class="program-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                        </div>
+                        <h5>Dr. Mark Camilleri</h5>
+                        <p class="text-primary-custom mb-2">Principal</p>
+                        <p class="small">Ph.D. in Educational Leadership, 25 years of experience in education. Joined SSHS in 2015.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <div class="mb-3">
+                            <div class="program-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                        </div>
+                        <h5>Mrs. Sarah Agius</h5>
+                        <p class="text-primary-custom mb-2">Deputy Principal - Academics</p>
+                        <p class="small">M.Ed. in Curriculum Development, specialist in STEM education. With SSHS since 2010.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card text-center">
+                        <div class="mb-3">
+                            <div class="program-icon">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                        </div>
+                        <h5>Mr. David Zammit</h5>
+                        <p class="text-primary-custom mb-2">Deputy Principal - Student Affairs</p>
+                        <p class="small">M.A. in Educational Psychology, focused on student wellbeing. Joined SSHS in 2012.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="content-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Achievements</h2>
+                <p class="lead">Recognition and Milestones</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-trophy text-primary-custom me-2"></i> Top 3 School in Malta</h5>
+                            <p>Consistently ranked among the top 3 secondary schools in Malta for academic performance (2020-2026).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-award text-primary-custom me-2"></i> Excellence in STEM Award</h5>
+                            <p>Received the National Excellence in STEM Education Award in 2024 for our innovative science programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-certificate text-primary-custom me-2"></i> International Accreditation</h5>
+                            <p>Fully accredited by the Council of International Schools (CIS) since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <div class="news-content">
+                            <h5><i class="fas fa-medal text-primary-custom me-2"></i> Sports Excellence</h5>
+                            <p>National champions in basketball and football multiple times, with a strong athletic program.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="images/logo-inverse.png" alt="Solid State High School" class="footer-logo mb-3" height="40">
+                    <h5>About Solid State High School</h5>
+                    <p>Excellence in education since 1985. We are committed to nurturing young minds and preparing them for a successful future.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Information</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 0124567 Triq Santa Venera, Birkirkara BKR 2074, Malta</li>
+                        <li><i class="fas fa-phone"></i> +356 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@solidstatehighschool.test</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 7:30 AM - 3:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2026 Solid State High School. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+                
+                <p style="color:rgb(129, 70, 109)" class="">This Sample Project was Developed by <a href="https://kiziton.com"><span style="color:rgb(92, 89, 255) ;">Kizito Ngonye</span></a></p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+        <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+        <script>
+        (function(){
+            var btn = document.getElementById('backToTop');
+            if(!btn) return;
+            window.addEventListener('scroll', function(){
+                if(window.scrollY > 300) btn.style.display = 'flex'; else btn.style.display = 'none';
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({top:0, behavior:'smooth'});
+            });
+        })();
+        </script>
+</body>
+</html>
