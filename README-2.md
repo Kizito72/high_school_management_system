@@ -1,4 +1,4 @@
-# high_shchool_management_system
+# high_school_management_system
 This is a professional, fully responsive **Student Results Management System** featuring a responsive school website and integrated student portal with role-based access control, a fictional educational institution. The website is built for educational and demonstration purposes only.
 
 # Solid State High School Portal
@@ -10,7 +10,7 @@ This is a professional, fully responsive **Student Results Management System** f
 
 ## 🎓 Features
 
-- **Public Website** - Professional school website with admission application and student, Teacher, Accademic staff, admin logins portal
+- **Public Website** - Professional school website with admission application and student, Teacher, Academic staff, admin logins portal
 - **Student Portal** - View grades, results, and other academic information
 - **Teacher Dashboard** - Manage classes and input grades
 - **Academic Staff Panel** - Manage academic operations and results
@@ -105,7 +105,7 @@ This is a professional, fully responsive **Student Results Management System** f
 └── README.md
 ```
 
-## 👥 User Acccess Roles
+## 👥 User Access Roles
 
 | Role | Access | Functions |
 |------|--------|-----------|
