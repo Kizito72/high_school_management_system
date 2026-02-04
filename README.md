@@ -235,5 +235,8 @@ Contributions are welcome! Please:
 5. Open a Pull Request
 
 ## 📞 Support
-
 For issues, questions, or suggestions, please open an issue on GitHub.
+
+## For Question
+- Contact me @ kizzy.ngo@gmail.com
+- 
